@@ -1,7 +1,4 @@
-# Elektrivälja jõujooned
+# Elektrivälja jõujooned (kolinud)
 
-Interaktiivne õppevahend punktlaengute elektrivälja uurimiseks: jõujooned, väljatugevuse vektorid kursori kohas (iga laengu oma ja summaarne) ning ekvipotentsiaalpinnad.
-
-Ava rakendus: https://vanakrt.github.io/joujooned/
-
-Kogu rakendus on üks fail (`index.html`) ilma väliste sõltuvusteta – töötab ka võrguühenduseta, kui faili lihtsalt brauseris avada.
+Rakendus asub nüüd aadressil https://vanakrt.github.io/elektrivali/ (repo `vanakrt.github.io`).
+See repo suunab vana aadressi https://vanakrt.github.io/joujooned/ automaatselt uuele.
