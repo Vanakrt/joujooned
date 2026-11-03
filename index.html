@@ -18,7 +18,7 @@
   canvas{display:block;touch-action:none;cursor:crosshair}
   h1{font-size:18px;margin:0 0 12px}
   h2{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:18px 0 8px}
-  h3{font-size:13px;margin:10px 0 6px}
+  h3{font-size:15px;margin:12px 0 6px}
   label{font-size:13px}
   .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
   input[type=number],select{font:inherit;font-size:13px;padding:4px 6px;border:1px solid #cbd5e1;border-radius:6px;width:74px;background:#fff;color:#1f2937;-webkit-text-fill-color:#1f2937;opacity:1}
@@ -96,14 +96,14 @@
       <label title="Tasandi pikkus (kaks tasandit ja üks tasand)">tasandi pikkus L <input type="number" id="planeL" min="0.25" step="0.25" value="5"> <span class="unit">m</span></label>
       <label title="Kahe tasandi vahekaugus">vahe d <input type="number" id="gapD" min="0.25" step="0.25" value="1"> <span class="unit">m</span></label>
     </div>
-    <div class="small" style="margin-bottom:4px">Punktlaengud (suurus ja märk ülalt):</div>
+    <h3>Punktlaengud <span class="small" style="font-weight:400">(suurus ja märk ülalt)</span></h3>
     <div class="btns">
       <button data-preset="tri-eq">Võrdkülgne kolmnurk</button>
       <button data-preset="tri-iso">Võrdhaarne kolmnurk</button>
       <button data-preset="square">Ruut</button>
       <button data-preset="dipole">Dipool</button>
     </div>
-    <div class="small" style="margin-bottom:4px">Tasandid (σ ja märk ülalt):</div>
+    <h3>Tasandid <span class="small" style="font-weight:400">(σ ja märk ülalt)</span></h3>
     <div class="btns">
       <button data-preset="cap">Kaks vastasmärgilist tasandit</button>
       <button data-preset="single">Üks tasand</button>
